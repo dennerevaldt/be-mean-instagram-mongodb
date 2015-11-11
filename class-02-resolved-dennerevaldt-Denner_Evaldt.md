@@ -8,10 +8,13 @@ switched to db be-mean-pokemons
 
 ## Listagem das databases (passo 2)
 
+```
 > show dbs
 be-mean            0.078GB
 be-mean-instagram  0.078GB
 local              0.078GB
+
+```
 
 ## Listagem das coleções (passo 3)
 
