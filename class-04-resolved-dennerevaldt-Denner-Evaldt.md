@@ -29,7 +29,6 @@ WriteResult({
 ## **Adicionar** 1 movimento em todos os pokemons: `desvio`.##
 
 ```
-
 > var query = {}
 > var mod = {$push: {moves:'desvio'}}
 > var options = {multi: true}
