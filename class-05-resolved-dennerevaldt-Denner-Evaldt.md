@@ -197,7 +197,7 @@ MacBook-Pro-de-Denner:~ dennerevaldtmachado$ mongoimport --db be-mean --collecti
 ```
 
 ## 6. Realizar 3 counts na pokemons.
-
+```
 -> .count -- todos
 > db.pokemons.count()
 610
@@ -209,3 +209,4 @@ MacBook-Pro-de-Denner:~ dennerevaldtmachado$ mongoimport --db be-mean --collecti
 -> .count -- só de quantos tem a defesa maior que 70
 > db.pokemons.count({defense: {$gt: 70}})
 250
+```
